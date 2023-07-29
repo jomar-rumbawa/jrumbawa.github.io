@@ -1,11 +1,13 @@
-<nav>
-  <p>Jomar Rumbawa</p>
-  <ul>
-    <li>About</li>
-    <li>Blog</li>
-    <li>Contact</li>
-  </ul>
-</nav>
+<div class="container">
+  <nav>
+      <p>Jomar Rumbawa</p>
+      <ul>
+        <li>About</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+  </nav>
+</div>
 
 <style>
   nav {
@@ -20,5 +22,11 @@
   ul {
     display: flex;
     list-style: none;
+    gap: .75em;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin-inline: auto;
   }
 </style>
